@@ -53,7 +53,7 @@ body {
   margin: 4% 3% 7% 0;
 }
 
-@media (max-width: 983px) {
+@media (max-width: 991px) {
 #title {
   text-align: center;
 }
@@ -84,6 +84,12 @@ p {
 
 .feature-icons {
 padding-bottom: 15%;
+}
+
+@media (max-width:991px) {
+  .feature-icons {
+    padding-bottom: 5%;
+}
 }
 
 /* This next feature of changing gradients shown below was for just for fun. I did not learn
